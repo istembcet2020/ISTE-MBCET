@@ -239,6 +239,10 @@ a.white {
 	color: #fff;
 	text-decoration: none;
 }
+.buttonmiddled{
+	margin-left: 35%;
+	margin-bottom: 3%;
+}
 
 .form-group {
 	position: relative;
@@ -2247,8 +2251,9 @@ a:hover.back-to-top {
   }
   
   .event .event-left .month {
-	font-size: 16px;
-	font-weight: normal;
+	font-size: 18px;
+	font-weight: bold;
+	padding-top: 10px;
   }
   
   .event .event-right {
@@ -2271,9 +2276,11 @@ a:hover.back-to-top {
 	align-items: center;
 	justify-content: center;
 	width: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	padding: 8px;
 	border-radius: 16px;
-	margin: 24px 0;
+	margin-left: 36%;
 	font-size: 14px;
   }
   
