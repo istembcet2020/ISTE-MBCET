@@ -659,8 +659,8 @@ input[type='checkbox'] {
 }
 
 .navbar-custom .navbar-brand.logo-image img {
-    width: 7.4375rem;
-	height: 2rem;
+    width: 6.4375rem;
+	height: 6rem;
 }
 
 .navbar-custom .navbar-brand.logo-text {
@@ -721,6 +721,11 @@ input[type='checkbox'] {
 
 .navbar-custom .dropdown-item:hover {
 	background-color: #fff;
+}
+.footer-logo{
+	height: 100px;
+	width: 100px;
+	margin-left: 40%;
 }
 
 .navbar-custom .dropdown-item .item-text {
@@ -2297,3 +2302,5 @@ a:hover.back-to-top {
 	  padding: 10px 0;
 	}
   }
+
+  
