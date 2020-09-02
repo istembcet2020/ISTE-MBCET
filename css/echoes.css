@@ -18,6 +18,7 @@ body {
 }
 
 .team-img {
+  background-color: rgb(200, 200, 200, 0.5);
     width: 10vw;
     height: 10vw;
     border: 2px solid blue;
@@ -29,7 +30,7 @@ body {
 }
 
 .test1 {
-    background-color: white;
+    background-color: rgb(200, 200, 200, 0.5);
     color: blue;
     height: 10vw;
     padding: 1vw;
@@ -82,7 +83,7 @@ body {
 
 
 .area{
-    background: #01BFD9;
+    background: white;
     background: -webkit-linear-gradient(to left, #0154d9, #01BFD9);
     width: 100%;
     height:100vh;
@@ -106,7 +107,7 @@ body {
     list-style: none;
     width: 20px;
     height: 20px;
-    background: rgba(255, 255, 255, 0.4);
+    background:  #01BFD9FF; /* rgba(255, 255, 255, 0.4); */
     animation: animate 25s linear infinite;
     bottom: -150px;
 
