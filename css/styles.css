@@ -323,6 +323,12 @@ a.white {
 	}
 }
 
+.footer-logo-teams{
+	margin-left: 7%;
+    height: 100px;
+	width: 100px;
+}
+
 select {
     /* you should keep these first rules in place to maintain cross-browser behavior */
     -webkit-appearance: none;
