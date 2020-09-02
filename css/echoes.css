@@ -5,7 +5,7 @@
     padding: 1vw;
     margin: auto;
     position: relative;
-    top: 5vh
+    top: 5vh;
 }
 
 body {
@@ -64,21 +64,14 @@ body {
 /* Animated BG */
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
-*{
-    margin: 0px;
-    padding: 0px;
-}
-
-body{
-    font-family: 'Exo', sans-serif;
-}
-
 
 .context {
     width: 100%;
     position: absolute;
     top:50vh;
-
+    margin: 0px;
+    padding: 0px;
+    z-index: 1;
 }
 
 .context h1{
@@ -89,8 +82,8 @@ body{
 
 
 .area{
-    background: #4e54c8;
-    background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+    background: #01BFD9;
+    background: -webkit-linear-gradient(to left, #0154d9, #01BFD9);
     width: 100%;
     height:100vh;
 
@@ -98,12 +91,13 @@ body{
 }
 
 .circles{
-    position: absolute;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     overflow: hidden;
+    z-index: 0;
 }
 
 .circles li{
@@ -112,7 +106,7 @@ body{
     list-style: none;
     width: 20px;
     height: 20px;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.4);
     animation: animate 25s linear infinite;
     bottom: -150px;
 
