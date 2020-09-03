@@ -42,7 +42,6 @@ body {
 .content-text{
   text-align: justify;
   font-size: 70%;
-  font:
 }
 
 @keyframes text {
@@ -79,15 +78,40 @@ body {
         height: auto
     }
 
-    img {
-        height: 30vw;
-        width: 30vw;
-        margin: 5vw
+    .test1 {
+        padding: 3vw;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
     }
 
-    .test1 {
-        height: 45vw;
-        padding: 3vw;
-        font-size: 3.6vw
+
+    .content-text{
+      text-align: justify;
+      font-size: 3.6vw;
+      font-family: sans-serif;
+    }
+
+    .team-img{
+      height: 30vw;
+      width: 30vw;
+    }
+
+    img.team-img.left {
+        margin-left: -100px;
+    }
+
+    img.team-img.right {
+        margin-left: 100px;
+    }
+
+    @keyframes text {
+        from {
+            font-size: 0vw
+        }
+
+        to {
+            font-size: 1.2vw
+        }
     }
 }
