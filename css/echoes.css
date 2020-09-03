@@ -22,6 +22,7 @@ body {
     width: 10vw;
     height: 10vw;
     border: 2px solid blue;
+    margin: auto;
     transform: rotateY(180deg);
     animation-name: photo;
     animation-duration: 1s;
@@ -32,12 +33,16 @@ body {
 .test1 {
     background-color: rgb(200, 200, 200, 0.5);
     color: blue;
-    height: 10vw;
-    padding: 1vw;
-    font-size: 1.2vw;
+    padding: 20px;
     animation-name: text;
     animation-duration: 1s;
     animation-fill-mode: forwards
+}
+
+.content-text{
+  text-align: justify;
+  font-size: 70%;
+  font:
 }
 
 @keyframes text {
@@ -63,7 +68,8 @@ body {
 }
 
 .by {
-    font-family: 'Dancing Script', cursive
+    font-family: 400 1rem/1.5rem "Raleway", sans-serif;
+    margin-bottom: 0;
 }
 
 @media only screen and (max-width: 425px) {
