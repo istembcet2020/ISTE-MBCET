@@ -42,6 +42,7 @@ body {
 .content-text{
   text-align: justify;
   font-size: 70%;
+  font-weight: 700; 
 }
 
 @keyframes text {
