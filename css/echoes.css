@@ -9,7 +9,6 @@
 }
 
 body {
-    background-color: #01BFD9;
     animation-name: background;
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -19,9 +18,9 @@ body {
 
 .team-img {
   background-color: rgb(200, 200, 200, 0.5);
-    width: 10vw;
-    height: 10vw;
-    border: 2px solid blue;
+    width: 15vw;
+    height: 15vw;
+    border: 5px solid rgb(13, 184, 252);
     margin: auto;
     transform: rotateY(180deg);
     animation-name: photo;
@@ -31,7 +30,7 @@ body {
 }
 
 .test1 {
-    background-color: rgb(200, 200, 200, 0.5);
+    background-color: rgb(35, 171, 250);
     color: blue;
     padding: 20px;
     animation-name: text;
@@ -42,7 +41,8 @@ body {
 .content-text{
   text-align: justify;
   font-size: 70%;
-  font-weight: 700; 
+  font-weight: bolder;
+  color: white;
 }
 
 @keyframes text {
@@ -70,6 +70,7 @@ body {
 .by {
     font-family: 400 1rem/1.5rem "Raleway", sans-serif;
     margin-bottom: 0;
+    color: white
 }
 
 @media only screen and (max-width: 425px) {
@@ -114,13 +115,5 @@ body {
         to {
             font-size: 1.2vw
         }
-    }
-
-    .basic-4 {
-      padding-top: 0;
-    }
-
-    .ex-header {
-      padding-bottom: 0;
     }
 }
