@@ -114,4 +114,12 @@ body {
             font-size: 1.2vw
         }
     }
+
+    .basic-4 {
+      padding-top: 0;
+    }
+
+    .ex-header {
+      padding-bottom: 0;
+    }
 }
