@@ -95,8 +95,10 @@ body {
     }
 
     .team-img{
-      height: 30vw;
-      width: 30vw;
+        width: 80%;
+       height: auto;
+       box-align: center;
+      
     }
 
     img.team-img.left {
@@ -123,6 +125,5 @@ body {
     width: 80%;
     height: auto;
     box-align: center;
-    margin: auto;
 }
 }
