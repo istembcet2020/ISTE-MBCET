@@ -861,6 +861,16 @@ input[type='checkbox'] {
 	font-size: 20px;
 }
 
+@media only screen and (max-width: 768px) {
+    .istewritten{
+		display: none;
+	}
+	.navbar-custom .navbar-brand.logo-text{
+		display: none;
+	}
+}
+
+
 .cards-1 .card {
 	max-width: 21rem;
 	margin-right: auto;
