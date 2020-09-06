@@ -122,8 +122,6 @@ body {
 .team-img{
     width: 80%;
     height: auto;
-}
-.team-img.right{
-    margin-left:-100px;
+    box-align: center;
 }
 }
