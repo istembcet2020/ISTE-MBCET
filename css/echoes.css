@@ -101,14 +101,6 @@ body {
       
     }
 
-    img.team-img.left {
-        margin-left: -100px;
-    }
-
-    img.team-img.right {
-        margin-left: 100px;
-    }
-
     @keyframes text {
         from {
             font-size: 0vw
