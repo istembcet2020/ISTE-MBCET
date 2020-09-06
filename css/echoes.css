@@ -117,3 +117,13 @@ body {
         }
     }
 }
+
+@media only screen and (max-width: 768px) {
+.team-img{
+    width: 80%;
+    height: auto;
+}
+.team-img.right{
+    margin-left:-100px;
+}
+}
